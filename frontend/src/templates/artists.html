@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/artists.css">
+    <title>Artists</title>
+</head>
+
+<body>
+    <div id="loader"></div>
+    <div class="gif">
+        <a href="./index.html">
+            <img class="back-button" src="./assets/images/arrow.png">
+        </a>
+        <a href="./start.html">
+            <img class="right-button" src="./assets/images/right-arrow.png">
+        </a>
+        <div class="body-container">
+            <h1 id="main-title">Head-Hunter index</h1>
+            {{range $u, $v := .Artists}}
+                {{if eq $u 16}}
+                <h1 id="title">{{.Name}}</h1>
+                <img src={{.Image}}>
+                    {{range .Members}}
+                    <p>{{.}}</p>
+                    {{end}}
+                {{end}}
+            {{end}}
+    </div>
+</div>
+</body>
+<footer>
+    <script src="./js/loader.js" type="module"></script>
+    <script type="module">
+        import loader from "./js/loader.js"
+    loader(2000)
+</script>
+</footer>
+</html>
+
+<!-- <body>
+    <div id="loader"></div>
+    <div class="gif">
+        <a href="./index.html">
+            <img class="back-button" src="./assets/images/arrow.png">
+        </a>
+        <div class="body-container">
+            <h1 id="main-title">Head-Hunter index artists</h1>
+            {{range .Artists}}
+            <h1 id="title">{{.Name}}</h1>
+            <img src={{.Image}}>
+            {{range .Members}}
+            <p>{{.}}</p>
+            {{end}}
+            {{end}}
+        </div>
+    </div>
+</body>
+<footer>
+<script src="./js/loader.js" type="module"></script>
+<script type="module">
+    import loader from "./js/loader.js"
+    loader(2000)
+</script>
+</footer>
+
+</html> -->

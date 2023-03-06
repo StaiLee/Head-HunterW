@@ -1,0 +1,24 @@
+<svelte:head>
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</svelte:head>
+<div id="loader"></div>
+<div class="body-container">
+    <!-- svelte-ignore a11y-missing-attribute -->
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/9bc27292880429.5e569ff84e4d0.gif" class="gif">
+    <div class="content">
+        <form action="http://localhost:1706/artists">
+            <h1 class="title">HEAD HUNTER</h1>
+            <button class="home-btn" type="submit" style="cursor: pointer">Hunt now</button>
+        </form>
+    </div>
+</div>
+<script src="./js/loader.js" type="module"></script>
+<script type="module">
+    import loader from "./js/loader.js"
+
+    loader(4700)
+</script>
+<!--http://localhost:1706/artists-->
+<!--"./start.html">-->
