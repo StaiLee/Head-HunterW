@@ -22,7 +22,11 @@ then :
 ## command
 
 voici les commandes wails : 
-    wails dev : pour "run" l'application
+
+
+    wails dev : pour "run" l'application.
+
+
     wails build : pour compiler le projet et obtenir l'executable...
 
 ## documentation
