@@ -18,7 +18,9 @@ export default {
 
   conversation_form: ` 
     <div id="search">
-    <input id="input" placeholder="Type your head..."/>
+    <form action="/artists" method="GET">
+    <input list="artistCollector" id="input" id="artist-name" type="text" name="name" placeholder="Type your head..."/>
+    </form>
     <button id="button"><i class="fa fa-search"></i></button>
     <div class="spinner"><i class="fa fa-spinner"></i></div>
   </div>

@@ -1,6 +1,9 @@
+
 body {
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'VT323', monospace;
 }
 
 ::-webkit-scrollbar {
@@ -24,13 +27,11 @@ body {
 
 .gif {
     z-index: 98;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100% !important;
-    position: absolute;
+    height: 100%;
     background: url('https://i0.wp.com/boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif?fit=1&resize=620%2C4000&ssl=1') no-repeat center;
     background-attachment: fixed;
+    position: fixed;
     background-size: cover;
     object-fit: cover;
 }
@@ -49,13 +50,13 @@ body {
 }
 
 #title {
-    color: white;
-    font-size: 50px;
+    color:#4e0550;
+    font-size: 60px;
 }
 
 p {
-    font-size: 20px;
-    color: white;
+    font-size: 30px;
+    color: #CBC3E3;
 }
 
 .back-button {
@@ -79,7 +80,7 @@ p {
 }
 
 #loader {
-    z-index: 100;
+    z-index: 110;
     top: 0;
     left: 0;
     width: 100%;
@@ -112,4 +113,17 @@ p {
 .stop-scrolling {
     height: 100%;
     overflow: hidden;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.container{
+    z-index: 100;
+    position: relative !important;
+}
+
+.h2{
+    font-size: 50px;
 }

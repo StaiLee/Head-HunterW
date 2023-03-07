@@ -1,5 +1,7 @@
 package changeme
 
+//nos differentes struct que nous allons manipuler pour obtenir le json dans notre page html
+
 type Data struct {
 	ArtistsURL   string `json:"artists"`
 	LocationsURL string `json:"locations"`
@@ -39,5 +41,8 @@ type Relation struct {
 }
 
 type APIResponse struct {
-	Artists []Artist
+	Artists    []Artist
+	SearchType string
+	Item       string
+	GetParam   bool
 }
