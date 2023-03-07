@@ -2,7 +2,9 @@
 
 ## About
 
-Groupie tracker  Jack - Ilyes - Julie
+Groupie tracker  Jack - Ilyes - Julie.
+
+
 git clone https://ytrack.learn.ynov.com/git/silyes/Head-HunterW.git
 
 ## how to run ?
@@ -20,8 +22,8 @@ then :
 ## command
 
 voici les commandes wails : 
-    -wails dev : pour "run" l'application
-    -wails build : pour compiler le projet et obtenir l'executable...
+    wails dev : pour "run" l'application
+    wails build : pour compiler le projet et obtenir l'executable...
 
 ## documentation
 
