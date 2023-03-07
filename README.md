@@ -10,18 +10,27 @@ git clone https://ytrack.learn.ynov.com/git/silyes/Head-HunterW.git
 ## how to run ?
 
 need :
-    Go 1.18+
-    NPM (Node 15+)
+
+
+    Go 1.18+.
+
+
+    NPM (Node 15+).
 
 then :
-    go install github.com/wailsapp/wails/v2/cmd/wails@latest
-
-    wails doctor ( pour verifier si tout est bien installer)
 
 
-## command
+    go install github.com/wailsapp/wails/v2/cmd/wails@latest 
+
+    
+
+
+## commands
 
 voici les commandes wails : 
+
+
+    wails doctor : pour verifier si tout est bien installer.
 
 
     wails dev : pour "run" l'application.
