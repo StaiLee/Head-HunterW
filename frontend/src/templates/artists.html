@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/artists.css">
+    <title>Artists</title>
+</head>
+<body>
+    <div id="loader"></div>
+
+    <div class="gif"></div>
+    <div class="container">
+        <a href="./index.html">
+            <img class="back-button" src="./assets/images/arrow.png">
+        </a>
+        <a href="http://localhost:1706/start">
+            <img class="right-button" src="./assets/images/right-arrow.png">
+        </a>
+        <div class="body-container">
+            {{range $u, $v := .Artists}}
+            <h1 id="title">{{.Name}}</h1>
+            <img class="image" src={{.Image}}>
+            {{range .Members}}
+            <p>{{.}}</p>
+            {{end}}
+            <h2>Created at : {{.CreationDate}}</h2>
+            <h2>Their first album : {{.FirstAlbum}}</h2>
+            {{end}}
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./js/loader.js" type="module"></script>
+    <script type="module">
+        import loader from "./js/loader.js"
+    loader(2000)
+</script>
+</footer>
+</html>

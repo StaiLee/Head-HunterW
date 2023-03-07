@@ -1,0 +1,27 @@
+<script src="https://kit.fontawesome.com/79b46e653f.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/start.css">
+
+<title>Hunting</title>
+
+<datalist id="artistCollector">
+    {{range .Artists}}
+    <option value="{{.Name}} - Group"></option>
+    {{range .Members}}
+        <option value="{{.}} - Member"></option>
+    {{end}}
+    <option value="{{.CreationDate}} - Creation Date"></option>
+    {{end}}
+</datalist>
+
+<div id="particles-js">
+    <a href="http://localhost:1706/artists">
+        <img class="back-button" src="./assets/images/arrow.png">
+    </a>
+</div>
+
+<script src="./js/particles.min.js"></script>
+<script src="./js/app.js" type="module"></script>
