@@ -2,7 +2,7 @@
 
 ## About
 
-Groupie tracker  Jack - Ilyes - Julie
+Groupie tracker  StaiLee
 
 ## how to run ?
 
