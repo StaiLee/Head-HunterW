@@ -35,3 +35,7 @@ https://wails.io/fr/
 
 ![headhunter2](https://user-images.githubusercontent.com/102300908/225777873-5cc16292-85fa-46a9-99fd-d2561706e1b5.png)
 
+
+
+![headhunter3](https://user-images.githubusercontent.com/102300908/225777962-b17305b6-492b-4352-95bc-dff1a2572daa.png)
+
