@@ -27,3 +27,5 @@ pour plus d'information le lien de la doc :
 
 https://wails.io/fr/
 
+##Preview
+
