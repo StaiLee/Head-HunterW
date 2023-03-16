@@ -27,5 +27,7 @@ pour plus d'information le lien de la doc :
 
 https://wails.io/fr/
 
-##Preview
+## Preview
+
+![headhunter1](https://user-images.githubusercontent.com/102300908/225777774-3d76bfe7-d53d-45f7-aa5e-d3444cf8d5d6.png)
 
