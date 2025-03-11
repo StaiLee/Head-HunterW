@@ -11,7 +11,7 @@ need :
     NPM (Node 15+)
 
 then :
-    go go install github.com/wailsapp/wails/v2/cmd/wails@latest
+    go install github.com/wailsapp/wails/v2/cmd/wails@latest
     wails doctor ( pour verifier si tout est bien installer)
 
 
